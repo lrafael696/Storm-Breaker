@@ -35,7 +35,8 @@
 
 ### Update Log:
 
-- Second (latest) Update on November 4th , 2022 .
+- Fepository and original post: https://github.com/ultrasecurity/Storm-Breaker/
+- Second ( latest) Update on october 11th , 2024 .
 - The overall structure of the tool is programmed from the beginning and is available as a web panel (in previous versions, the tool was available in the command line).
 - Previous version's bugs fixed !
 - Auto-download Ngrok Added !
@@ -75,17 +76,16 @@
 
 ### Platforms Tested
 
-- Kali Linux 2022
+- Kali Linux 2024.2
 - macOS Big Sur / M1
 - Termux (android)
 - Personal host (direct admin and cPanel)
   <br>
 
-### Installation On Kali Linux 2024.02
+### Installation On Kali Linux 2024.2
 
 ```bash
-$ ### git clone https://github.com/ultrasecurity/Storm-Breaker (repositorio original - autor original)
-$ https://github.com/lrafael696/Storm-Breaker
+$ git clone https://github.com/lrafael696/Storm-Breaker
 $ cd Storm-Breaker
 $ sudo bash install.sh
 $ sudo python3 -m pip install -r requirements.txt
