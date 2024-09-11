@@ -163,7 +163,13 @@ sudo python3 st.py
 ![image](https://github.com/user-attachments/assets/83eb306e-5cd8-494f-870a-f11c52077a9b)
 
 
+Finally, you can use other tools to hide the original URL, this can be done with maskphish
 
+## maskphish
+
+![image](https://github.com/user-attachments/assets/a7e67d68-8788-42b7-a0fa-842763aa51a9)
+
+URL: https://github.com/jaykali/maskphish 
 
 
 </p>
