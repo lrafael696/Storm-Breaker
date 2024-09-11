@@ -109,4 +109,61 @@ $ sudo python3 st.py
 
 > To run ngrok on termux you need to enable your personal hotspot and cellular network.
 
+### Create account on NGROK
+
+```bash
+https://dashboard.ngrok.com/login
+```
+![image](https://github.com/user-attachments/assets/74f0c346-1142-4b07-af40-b7a9ae718a00)
+
+### Install NGROK
+
+```bash
+https://ngrok.com/download
+```
+![image](https://github.com/user-attachments/assets/17218842-e691-403e-b6e4-959b5eed2785)
+
+or
+
+### Install ngrok via Apt
+
+```bash
+https://dashboard.ngrok.com/get-started/setup/linux
+```
+
+```bash
+curl -sSL https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null && echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | sudo tee /etc/apt/sources.list.d/ngrok.list && sudo apt update && sudo apt install ngrok
+```
+![image](https://github.com/user-attachments/assets/1352243a-43ab-4053-bc70-15abab37a19f)
+
+
+### Add authtoken and connect your count
+
+```bash
+ngrok config add-authtoken <token>
+```
+![image](https://github.com/user-attachments/assets/3904bf99-4a2c-4a5e-9cae-0b566f4d665b)
+
+
+### Start a tunnel NGROK
+
+```bash
+ngrok http 2525
+```
+![image](https://github.com/user-attachments/assets/2626ed88-da7d-46d3-aef3-decd34dd29dc)
+
+
+### Start a tunnel NGROK
+
+```bash
+sudo python3 st.py
+```
+![image](https://github.com/user-attachments/assets/f43f96c1-fbca-49f7-9cd5-3142185b0c26)
+
+![image](https://github.com/user-attachments/assets/83eb306e-5cd8-494f-870a-f11c52077a9b)
+
+
+
+
+
 </p>
