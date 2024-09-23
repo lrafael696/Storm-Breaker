@@ -88,11 +88,21 @@
 $ git clone https://github.com/lrafael696/Storm-Breaker
 $ cd Storm-Breaker
 $ sudo bash install.sh
-$ sudo python3 -m pip install -r requirements.txt
 $ sudo python3 st.py
 ```
 
 <br>
+
+**`Possible installation errors** 
+
+If you get the following error message: error: 
+```bash
+ error: externally-managed-environment
+```
+Run the following command:
+```bash
+  sudo rm /usr/lib/python3.*/EXTERNALLY-MANAGED
+```
 
 **`how to run personal host 👇`**
 
