@@ -175,6 +175,19 @@ sudo python3 st.py
 
 Finally, you can use other tools to hide the original URL, this can be done with maskphish
 
+
+## Publishing to the network | alternatives :
+```bash
+This can be done with any of the following services
+
+https://serveo.net/
+└─$ ssh -R 80:localhost:2525 serveo.net
+
+
+https://localhost.run/
+└─$ ssh -R 80:localhost:2525 ssh.localhost.run
+```
+
 ## maskphish
 
 ![image](https://github.com/user-attachments/assets/a7e67d68-8788-42b7-a0fa-842763aa51a9)
