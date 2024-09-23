@@ -85,10 +85,10 @@
 ### Installation On Kali Linux 2024.2
 
 ```bash
-$ git clone https://github.com/lrafael696/Storm-Breaker
-$ cd Storm-Breaker
-$ sudo bash install.sh
-$ sudo python3 st.py
+git clone https://github.com/lrafael696/Storm-Breaker
+cd Storm-Breaker
+sudo bash install.sh
+sudo python3 st.py
 ```
 
 <br>
